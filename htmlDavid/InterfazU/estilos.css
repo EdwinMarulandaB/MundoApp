@@ -1,0 +1,62 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+.buscar{
+  width: 20vw;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+.logoServicio{
+  width: 20vw;
+}
+.enlace{
+  text-align: center;
+}
+
+.colorboton{
+  color: white;
+  background-color: #EED902;
+  border: #EED902;
+  font-size: 1.5rem;
+}
+.bienv{
+padding-left: 5%;
+}
+.bienvv{
+  padding-right: 5%;
+  }
+.fondobot{
+  background-color: #EED902;
+ }
+.button{
+  color: white;
+  background-color: #EED902;
+  border: #EED902;
+  font-size: 1.5rem;
+}
+.trabajador{
+  border-radius: 1vw;
+  width: 30%;
+
+}
+.trabajador-x{
+  text-align: center;
+}
+.nombre{
+  padding-top: 1%;
+  }
+.apellido{
+  padding-bottom: 1%;
+}
+
+.trabajadorinspec{
+  border-radius: 1vw;
+  width: 25vw;
+}
+
+.botonesR{
+  padding-top: 8%;
+}
+.imagencalif{
+  width: 40%;
+}

@@ -1,0 +1,60 @@
+.logo{
+    width: 17rem;
+}
+.img{
+    width: 24vw;
+    text-align: center;
+}
+table{
+    background-color: #606060;
+    border: transparent!important;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #606060;
+}
+.container-fluid{
+    padding-left: 5%;
+}
+.textcentro{
+    color: white;
+    text-align: center;
+}
+
+.btnn{
+    color: white;
+    background-color: #EED902;
+}
+
+.enlace{
+    text-align: center;
+    padding-right: 5%;
+}
+
+.centradonav{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.ordentextcentro{
+    text-align:center;
+    vertical-align: middle;
+}
+
+.colortext1{
+    color: #EED902;
+}
+.colorenlace{
+    color: #606060;
+}
+
+.bienv{
+    font-size: 4vw;
+}
+.bienvv{
+    font-size: 2vw;
+}
+.bienvvv{
+    font-size: 2vw;
+}

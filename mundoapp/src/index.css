@@ -1,0 +1,381 @@
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.izquierda {
+  background-color: white;
+  width: 60%;
+}
+.derecha {
+  background: url(./images/cliente.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100vh;
+  margin-left: 2rem;
+}
+
+.derechaworker {
+  background: url(./images/worker.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+  height: 100vh;
+  margin-left: 2rem;
+}
+.orden {
+  display: flex;
+}
+.logo {
+  width: 40%;
+}
+.izq {
+  text-align: center;
+  vertical-align: middle;
+}
+.textpeq {
+  font-size: 20px;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+.textbien {
+  font-size: 36px;
+  padding: 10%;
+}
+.textsig {
+  font-size: 25px;
+}
+.table {
+  height: 100%;
+}
+.formulario {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #eed902;
+  color: #f1f1f1;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.1);
+}
+
+.containerRegister {
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.containerRegister header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+.containerRegister .form {
+  margin-top: 30px;
+}
+.form .input-box {
+  width: 100%;
+  margin-top: 20px;
+}
+.input-box label {
+  color: #333;
+}
+.form :where(.input-box input, .select-box) {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.input-box input:focus {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.form .column {
+  display: flex;
+  column-gap: 15px;
+}
+.form .gender-box {
+  margin-top: 20px;
+}
+.gender-box h3 {
+  color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.form :where(.gender-option, .gender) {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+}
+.form .gender {
+  column-gap: 5px;
+}
+.gender input {
+  accent-color: #606060;
+}
+.form :where(.gender input, .gender label) {
+  cursor: pointer;
+}
+.gender label {
+  color: #606060;
+}
+.address :where(input, .select-box) {
+  margin-top: 15px;
+}
+.select-box select {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  color: #606060;
+  font-size: 1rem;
+}
+.form button {
+  height: 55px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: #606060;
+}
+.form button:hover {
+  background: #eed902;
+}
+
+@media screen and (max-width: 500px) {
+  .form .column {
+    flex-wrap: wrap;
+  }
+  .form :where(.gender-option, .gender) {
+    row-gap: 15px;
+  }
+}
+.registerbutton {
+  margin-top: 2% !important;
+  width: 30% !important;
+  height: 40% !important;
+}
+
+.recortador{
+  margin: 0% !important;
+ 
+}
+
+.logoNav {
+  width: 17rem;
+}
+.img {
+  width: 24vw;
+  text-align: center;
+}
+.tableImages {
+  padding-top: 100px;
+  background-color: #606060;
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  padding-left: 5%;
+}
+.textcentro {
+  color: white;
+  text-align: center;
+  margin-bottom: 0%;
+}
+
+.btnn {
+  color: white;
+  background-color: #eed902;
+}
+
+.enlace {
+  text-align: center;
+  padding-right: 5%;
+}
+
+.centradonav {
+  text-align: center;
+  padding-top: 1%;
+ 
+}
+.ordentextcentro {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.colortext1 {
+  color: #eed902;
+}
+.colorenlace {
+  color: #606060;
+}
+
+
+
+.error {
+  color: #e92b2d;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.message {
+  height: 20px;
+}
+
+#email {
+  margin-top: 20px;
+}
+
+#nav {
+  padding: 0px !important;
+}
+
+
+.buscar{
+  width: 20vw;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+.logoServicio{
+  width: 20vw;
+}
+.enlace{
+  text-align: center;
+}
+
+.colorboton{
+  color: white;
+  background-color: #EED902;
+  border: #EED902;
+  font-size: 1.5rem;
+}
+
+.fondobot{
+  background-color: #EED902;
+ }
+.button{
+  color: white;
+  background-color: #EED902;
+  border: #EED902;
+  font-size: 1.5rem;
+}
+.trabajador{
+  border-radius: 1vw;
+  width: 30%;
+
+}
+.trabajador-x{
+  text-align: center;
+}
+.nombre{
+  padding-top: 1%;
+  }
+.apellido{
+  padding-bottom: 1%;
+}
+
+.trabajadorinspec{
+  border-radius: 1vw;
+  width: 300px;
+  height: 200px;
+}
+
+.botonesR{
+  padding-top: 8%;
+}
+.imagencalif{
+  width: 40%;
+}
+
+.container_services{
+ 
+  
+  background: #fff;
+  
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.description{
+  margin-right: 0%;
+}
+
+.bt1 {
+  margin-right: 4%;
+}
+
+
+.container_create_service{
+  width: 400px;
+  background: #707070;
+  padding: 30px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 4px;
+  color: white;
+}
+
+.container_create_service h4{
+  text-align: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+  color: #EED902;
+}
+
+
+
+.container_create_service button{
+  width: 100%;
+  background: #EED902;
+  color: black ;
+  border-radius: 2px solid #707070;
+  padding: 10px;
+  margin-top: 9px;
+}
+
+.container_create_service label{
+  color: #EED902;
+}
+
+.field{
+  color: white;
+  width: 100%;
+  background: #707070;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.homeclass{
+  width: 100%;
+  height: 735px;
+  background-color: #606060;
+}
